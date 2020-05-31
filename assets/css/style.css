@@ -338,6 +338,26 @@ margin-top: 5px;
 /* REACH OUT STYLES END */
 
 
+
+/* CSS Grid */
+
+.service-grid-container {
+  display: grid;
+}
+
+.service-grid-item {
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: solid;
+  color: black;
+}
+
+
+/* CSS Grid End*/
+
+
+
 /* Utility */
 
 .text-left {
@@ -353,6 +373,8 @@ margin-top: 5px;
 }
 
 /* Utility End */
+
+
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
