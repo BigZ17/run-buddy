@@ -301,11 +301,8 @@ align-items: flex-end;
 position:relative;
 top:0x;
 left:0px;
+overflow:hidden;
 }
-
-
-.trainer:hover > .trainer-img::after
-{opacity:1;}
 
 
 .trainer-img::after {
@@ -320,20 +317,30 @@ left:0px;
   transition: .5s;
 }
 
+.trainer:hover > .trainer-img::after
+{opacity:1;}
 
+.trainer:hover .trainer-img h3, .trainer:hover .trainer-img h4 {
+top:0px;
+}
 
 
 .trainer-img h3 {
   position: relative;
+  top:200px;
   z-index: 500;
   font-size:28px;
   margin-bottom:5px;
+  transition: .7s;
 }
 
 .trainer-img h4 {
   position: relative;
+  top:200px;
   z-index: 500;
   font-size:22px;
+  transition: .7s;
+  transition-delay: 80ms;
 }
 
 
@@ -358,7 +365,6 @@ left:0px;
 
 .trainer-bio {
   padding: 25px;
-  width: 65%;
    line-height: 1.3;
 }
 
