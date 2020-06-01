@@ -370,12 +370,14 @@ top:0px;
 
 .trainer-bio h3 {
   font-size: 28px;
+  display: none;
 }
 
 .trainer-bio h4 {
   font-weight: lighter;
   font-size: 22px;
   margin-bottom: 15px;
+  display: none;
 }
 
 .trainer-bio p {
@@ -705,6 +707,13 @@ border-radius: 10px;
     grid-column: 1 / -1;
     grid-row: -1;
   }
+
+  .trainer-img h3, .trainer-img h4, .trainer-img::after
+  {  display: none;
+  }
+
+  .trainer-bio h3, .trainer-bio h4
+  {display:block;}
 
 }
 
