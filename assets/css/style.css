@@ -303,12 +303,9 @@ top:0x;
 left:0px;
 }
 
-.article.trainer:hover > img
-{
-opacity:1;
-}
 
-
+.trainer:hover > .trainer-img::after
+{opacity:1;}
 
 
 .trainer-img::after {
@@ -322,6 +319,9 @@ opacity:1;
   opacity: 0;
   transition: .5s;
 }
+
+
+
 
 .trainer-img h3 {
   position: relative;
